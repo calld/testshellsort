@@ -1,0 +1,6 @@
+This project is to experiment on shellsort
+
+> which set of gaps are the most optimal for a random list?
+
+> how does multi-threading the independent gap sets increase speed
+over linear processing?
