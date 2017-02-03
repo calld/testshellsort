@@ -37,8 +37,8 @@ def infiter(l):
         yield l[i]
         i = (i+1)%len(l)
 
-testcasecount = 100
-testset = infiter([ranlist() for x in range(testcasecount)])
+testcasecount = 5
+testset = infiter([[x for x in range(1000)], [x for x in range(1000, 0, -1)], ranlist(), ranlist(), ranlist()])
 
 testcase = 'ss.shellsort(next(testset)[:], gaps = currentgaps)'
 currentgaps = [1]
