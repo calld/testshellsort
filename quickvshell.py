@@ -6,7 +6,7 @@ import timeit
 gaps = [100, 59, 39, 27, 21, 16, 13, 11, 9, 4, 1] #best result from evolution search
 
 
-def ranlist(size = 10000, rang = 10000):
+def ranlist(size = 1000, rang = 10000):
     return [ran.randrange(rang) for x in range(size)]
 
 n = 1000
